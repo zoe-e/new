@@ -2,7 +2,7 @@ version: '2'
 
 services:
   db:
-    image: alliantist/mysql:5.6.7
+    image: alliantist/mysql:5.6.37
     environment:
       MYSQL_ROOT_PASSWORD: supersecret
       MYSQL_DATABASE: my_awesome_db
