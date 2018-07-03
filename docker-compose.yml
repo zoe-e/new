@@ -8,3 +8,5 @@ services:
       MYSQL_DATABASE: my_awesome_db
       MYSQL_USER: zoe
       MYSQL_PASSWORD: mypassword
+    ports:
+      - "3306:3306"
